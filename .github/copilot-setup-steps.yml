@@ -1,7 +1,0 @@
-jobs:
-  copilot-setup-steps:
-    runs-on: arc-k3s-runners
-
-    steps:
-      - name: Test copilot arc 
-        run: echo "Testing copilot-setup-steps.yml"
