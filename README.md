@@ -26,12 +26,12 @@ To set the environment variable in a workflow:
 
 ## Setup
 
-The repository includes a `copilot-setup-steps.yml` workflow that runs automatically when:
+The repository includes a setup workflow that runs automatically when:
 - Manually triggered via workflow_dispatch
 - The workflow file is modified
 - A pull request modifies the workflow file
 
-The workflow runs on `arc-k3s-runners` and executes the setup steps defined in `.github/workflows/copilot-setup-steps.yml`.
+The workflow runs on `arc-k3s-runners` and executes the setup steps defined in the `.github/workflows/` directory.
 
 ## Usage
 
