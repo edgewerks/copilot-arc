@@ -26,11 +26,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install JavaScript dependencies
-        run: npm ci
+      - name: Testing copilot arc
+        run: echo "Testing copilot-setup-steps.yml"
