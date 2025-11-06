@@ -1,6 +1,6 @@
 # copilot-arc
 
-Repo to test Github Action Runner Controller (ARC) with Copilot Agent
+Repo to test GitHub Actions Runner Controller (ARC) with GitHub Copilot Agent
 
 ## Overview
 
