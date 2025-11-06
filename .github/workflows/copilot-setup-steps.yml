@@ -26,5 +26,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
+      - name: Set Environment Variable
+        run:  echo "GITHUB_HOST=github.com" >> $GITHUB_ENV
+
       - name: Testing copilot arc
         run: echo "Testing copilot-setup-steps.yml"
